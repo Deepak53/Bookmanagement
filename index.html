@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body> 
+    <div class="main">
+        <div class="upper">
+            <h2>Library Management system</h2>
+            <!-- <form id = "form" onsubmit="return addData(event)"> -->
+                <label class="label">Book name</label>
+                <input type ="text" id="name" value ="" class="input">
+                <br>
+                <label class="label">issued to</label>
+                <input type ="text" id="issuedto" value ="" class="input">
+                <br>
+                <input type="submit" onclick="addData()" value = "issue Book" id="submit">
+            <!-- </form> -->
+        </div>
+        <div class="lower">
+            <table id="table" cellspacing="3" cellpadding="3" border="1">
+           <thead>                
+                <tr>
+                    <td>ID</td>
+                    <td>Book Name</td>
+                    <td>issued to</td>
+                    <td>issued date and time</td>
+                    <td>status</td>
+                </tr>
+            </thead>
+            <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

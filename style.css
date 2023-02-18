@@ -1,0 +1,60 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.842);
+}
+
+.upper{
+    margin : 4px;
+    padding : 10px;
+    min-width: 600px;
+}
+
+h2{
+    margin : 10px;
+    color : white;
+}
+
+#form{
+    margin : 10px;
+    padding : 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+.label{
+    margin : 4px;
+    color : white;
+    display : inline-block;
+}
+.input{
+    background-color:  rgba(0, 0, 0, 0.842);
+    color : white;
+    margin : 10px;
+    min-width: 200px;
+    height : 30px;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: center;
+    display : inline-block;
+}
+
+#submit{
+    min-width : 300px;
+    padding : 5px;
+    font-size: 10px;
+}
+
+th{
+    padding : 2px;
+    margin : 2px;
+    border:  1px solid white;
+}
+
+table{
+    color : white;
+    padding : 10px;
+}
